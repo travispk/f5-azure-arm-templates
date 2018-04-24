@@ -1,64 +1,64 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#", 
-    "contentVersion": "5.0.0.0", 
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
             "value": "azureuser"
-        }, 
+        },
         "adminPassword": {
-            "value": "GEN_UNIQUE"
-        }, 
+            "value": "F5isawesome!"
+        },
         "dnsLabel": {
-            "value": ""
-        }, 
+            "value": "travisk54"
+        },
         "instanceName": {
-            "value": "f5vm01"
-        }, 
+            "value": "travisk-f5-AS"
+        },
         "instanceType": {
             "value": "Standard_DS3_v2"
-        }, 
+        },
         "imageName": {
-            "value": "Good"
-        }, 
+            "value": "Best"
+        },
         "bigIpVersion": {
             "value": "13.1.0200"
-        }, 
+        },
         "licensedBandwidth": {
-            "value": "200m"
-        }, 
+            "value": "25m"
+        },
         "numberOfExternalIps": {
             "value": 1
-        }, 
+        },
         "vnetAddressPrefix": {
             "value": "10.0"
-        }, 
+        },
         "enableNetworkFailover": {
             "value": "Yes"
-        }, 
+        },
         "internalLoadBalancerType": {
-            "value": "Per-protocol"
-        }, 
+            "value": "DO_NOT_USE"
+        },
         "internalLoadBalancerProbePort": {
             "value": "3456"
-        }, 
+        },
         "ntpServer": {
             "value": "0.pool.ntp.org"
-        }, 
+        },
         "timeZone": {
-            "value": "UTC"
-        }, 
+            "value": "US/Central"
+        },
         "restrictedSrcAddress": {
             "value": "*"
-        }, 
+        },
         "tagValues": {
             "value": {
-                "application": "APP", 
-                "cost": "COST", 
-                "environment": "ENV", 
-                "group": "GROUP", 
+                "application": "APP",
+                "cost": "COST",
+                "environment": "ENV",
+                "group": "GROUP",
                 "owner": "OWNER"
             }
-        }, 
+        },
         "allowUsageAnalytics": {
             "value": "Yes"
         }
